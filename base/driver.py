@@ -16,7 +16,7 @@ class Driver(object):
             # 创建线程锁(上锁-释放锁)
             with Driver._instance_lock:
                 if cls.driver is None:
-                    cls.driver = webdriver.Chrome()
+                    cls.driver = webdriver.Chrome(executable_path=r"D:\chrome\chromedriver.exe")
                     cls.driver.maximize_window()
                     cls.driver.get(pageObject.url)
         return cls.driver
