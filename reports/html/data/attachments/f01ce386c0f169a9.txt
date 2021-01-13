@@ -1,0 +1,22 @@
+INFO     root:baseApi.py:33 正在输入：('id', 'search-input')元素 输入值是: 连衣裙
+INFO     root:baseApi.py:21 正在查找元素：('id', 'search-input')元素,最多等待: 30秒
+INFO     root:baseApi.py:28 正在点击:('id', 'ai-topsearch')元素
+INFO     root:baseApi.py:21 正在查找元素：('id', 'ai-topsearch')元素,最多等待: 30秒
+INFO     root:baseApi.py:28 正在点击:('css selector', 'ul.search-list>li:nth-child(1)')元素
+INFO     root:baseApi.py:21 正在查找元素：('css selector', 'ul.search-list>li:nth-child(1)')元素,最多等待: 30秒
+INFO     root:baseApi.py:49 开始切换窗口
+INFO     root:baseApi.py:49 开始切换窗口
+INFO     root:baseApi.py:49 开始切换窗口
+INFO     root:baseApi.py:52 窗口切换成功
+INFO     root:baseApi.py:28 正在点击:('css selector', 'li[data-value="粉色"]')元素
+INFO     root:baseApi.py:21 正在查找元素：('css selector', 'li[data-value="粉色"]')元素,最多等待: 30秒
+INFO     root:baseApi.py:28 正在点击:('css selector', 'li[data-value="M"]')元素
+INFO     root:baseApi.py:21 正在查找元素：('css selector', 'li[data-value="M"]')元素,最多等待: 30秒
+INFO     root:baseApi.py:28 正在点击:('css selector', "button[title='加入购物车']")元素
+INFO     root:baseApi.py:21 正在查找元素：('css selector', "button[title='加入购物车']")元素,最多等待: 30秒
+INFO     root:baseApi.py:28 正在点击:('xpath', "//*[text()='购物车']")元素
+INFO     root:baseApi.py:21 正在查找元素：('xpath', "//*[text()='购物车']")元素,最多等待: 30秒
+INFO     root:baseApi.py:28 正在点击:('xpath', '(//tbody/tr/td[5])[1]/a')元素
+INFO     root:baseApi.py:21 正在查找元素：('xpath', '(//tbody/tr/td[5])[1]/a')元素,最多等待: 30秒
+INFO     root:baseApi.py:28 正在点击:('xpath', "//*[text()='确定']")元素
+INFO     root:baseApi.py:21 正在查找元素：('xpath', "//*[text()='确定']")元素,最多等待: 30秒

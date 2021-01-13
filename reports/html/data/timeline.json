@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-60EEKMHU",
+    "children" : [ {
+      "name" : "25380-MainThread",
+      "children" : [ {
+        "name" : "test_delete_cart",
+        "uid" : "6df8034dd4541b78",
+        "parentUid" : "3befb7d5b43ecf996afe5b0e8cafa4f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610342473291,
+          "stop" : 1610342484689,
+          "duration" : 11398
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add_cart",
+        "uid" : "f965b2bc27fc931a",
+        "parentUid" : "3befb7d5b43ecf996afe5b0e8cafa4f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610342461556,
+          "stop" : 1610342473288,
+          "duration" : 11732
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3befb7d5b43ecf996afe5b0e8cafa4f0"
+    } ],
+    "uid" : "2e2c7881a4cd55698402b7f8bf498003"
+  } ]
+}

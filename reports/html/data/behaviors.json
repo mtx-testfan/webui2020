@@ -1,0 +1,43 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "购物车功能",
+    "children" : [ {
+      "name" : "加入购物车的功能测试",
+      "children" : [ {
+        "name" : "test_add_cart",
+        "uid" : "f965b2bc27fc931a",
+        "parentUid" : "8b8ccb8d96c45a9e34f413ab51d047a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610342461556,
+          "stop" : 1610342473288,
+          "duration" : 11732
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8b8ccb8d96c45a9e34f413ab51d047a6"
+    }, {
+      "name" : "删除购物车功能的测试",
+      "children" : [ {
+        "name" : "test_delete_cart",
+        "uid" : "6df8034dd4541b78",
+        "parentUid" : "7204c039213840756327936b309f46cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610342473291,
+          "stop" : 1610342484689,
+          "duration" : 11398
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7204c039213840756327936b309f46cf"
+    } ],
+    "uid" : "13107ad838d9e0b8da43e1b977ff0d34"
+  } ]
+}

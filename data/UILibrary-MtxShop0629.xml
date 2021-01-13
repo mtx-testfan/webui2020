@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+
+	<page pagename="com.mtxshop.pageobject.HomePage" value=""  desc="首页">
+		<locator type="linktext" timeout="3" value="登录" desc="登录">loginlink</locator>
+		<locator type="xpath" timeout="3" value="//*[text()='个人中心']" desc="个人中心">personcenter</locator>
+		<locator type="cssselector" timeout="3" value=".goods-items" desc="第一个产品">firstgoods</locator>
+	</page>
+	
+	<page pagename="com.mtxshop.pageobject.LoginPage" value=""  desc="登录页面">
+		<locator type="name" timeout="3" value="accounts" desc="用户名">username</locator>
+		<locator type="name" timeout="3" value="pwd" desc="密码">pwd</locator>
+		<locator type="cssselector" timeout="3" value=".btn-loading-example" desc="登录按钮">loginbtn</locator>
+	</page>
+	
+	<page pagename="com.mtxshop.pageobject.PersonCenterPage" value=""  desc="个人中心页面">
+		<locator type="partiallinktext" timeout="3" value="个人资料" desc="个人资料">personinfo</locator>
+		<locator type="xpath" timeout="3" value="//*[text()='待评价']/.." desc="待评价">waitcomment</locator>
+		<locator type="xpath" timeout="3" value="//*[text()='待收货']/.." desc="待收货">waitReceivegoods</locator>
+		
+	</page>
+	<page pagename="com.mtxshop.pageobject.PersonInfoPage" value=""  desc="个人信息页面">
+		<locator type="partiallinktext" timeout="3" value="编辑" desc="编辑">edit</locator>
+		<locator type="name" timeout="3" value="nickname" desc="昵称">nickname</locator>
+		<locator type="xpath" timeout="3" value="//*[text()='保存']" desc="保存">save</locator>
+		<locator type="xpath" timeout="3" value="//*[text()='昵称']/following-sibling::dd[1]" desc="获取昵称">newnickname</locator>
+		<locator type="xpath" timeout="3" value="//*[text()='头像']/following-sibling::dd[1]//a" desc="头像修改">headerimgmodify</locator>
+		<locator type="cssselector" timeout="3" value=".am-form-group.am-form-file.am-fl.am-form-group-refreshing" desc="选择图片">selectImg</locator>
+		<locator type="cssselector" timeout="3" value=".head-submit" desc="选择图片">submit</locator>
+		<locator type="xpath" timeout="3" value="//*[text()='头像']/following-sibling::dd[1]/img" desc="头像图片">headerImg</locator>
+		
+	</page>
+	<page pagename="com.mtxshop.pageobject.GoodsDeatilPage" value=""  desc="商品详情页">
+		<locator type="xpath" timeout="3" value="//*[text()='立即购买']" desc="立即购买">buynow</locator>
+	</page>
+	<page pagename="com.mtxshop.pageobject.OrderPage" value=""  desc="下单页">
+		<locator type="cssselector" timeout="3" value=".payment-list>li" desc="第一个付款方式">firstpayment</locator>
+		<locator type="xpath" timeout="3" value="//*[text()='提交订单']" desc="提交订单">submit</locator>
+	</page>
+	<page pagename="com.mtxshop.pageobject.OrderManagerPage" value=""  desc="订单管理页">
+		<locator type="partiallinktext" timeout="3" value="评论" desc="评论">comment</locator>
+		<locator type="xpath" timeout="3" value="//*[text()=' 收货']" desc="收货">收货</locator>
+		<locator type="xpath" timeout="3" value="//*[text()='确定']" desc="确定">确定</locator>
+		<locator type="cssselector" timeout="3" value=".am-icon-bookmark-o.am-fl" desc="订单号">订单号</locator>
+		<locator type="js" timeout="3" value="document.getElementsByName('status')[0].style='';" desc="js操作隐藏的状态下拉框">js操作隐藏的状态下拉框</locator>
+		<locator type="name" timeout="3" value="status" desc="隐藏的状态下拉框">隐藏的状态下拉框</locator>
+		<locator type="xpath" timeout="3" value="(//*[text()='搜索'])[2]" desc="搜索">搜索</locator>
+		<locator type="cssselector" timeout="3" value="input[name='keywords']" desc="搜索输入框">搜索输入框</locator>
+		<locator type="xpath" timeout="3" value="(//*[text()='搜索'])[1]" desc="第一个搜索">第一个搜索</locator>
+	</page>
+	<page pagename="com.mtxshop.pageobject.CommentPage" value=""  desc="评论页">
+		<locator type="cssselector" timeout="3" value=".am-icon-star-o.am-icon-md" desc="评论星级">commentstar</locator>
+		<locator type="name" timeout="3" value="content[]" desc="评论内容">content</locator>
+		<locator type="xpath" timeout="3" value="//*[text()='提交']" desc="评论提交">submit</locator>
+	</page>
+	<page pagename="com.mtxshop.pageobject.HouLoginPage" value=""  desc="后台登录页">
+		<locator type="name" timeout="3" value="username" desc="用户名">username</locator>
+		<locator type="name" timeout="3" value="login_pwd" desc="密码">pwd</locator>
+		<locator type="cssselector" timeout="3" value=".btn-loading-example" desc="登录按钮">loginbtn</locator>
+	</page>
+	
+	<page pagename="com.mtxshop.pageobject.HouHomePage" value=""  desc="后台首页">
+		<locator type="xpath" timeout="3" value="//*[text()='订单管理']" desc="订单管理大菜单">ordermenu</locator>
+		<locator type="cssselector" timeout="3" value="#power-menu-177>li" desc="订单管理">orderlink</locator>
+		<locator type="id" timeout="3" value="ifcontent" desc="iframe">iframe</locator>
+	</page>
+	<page pagename="com.mtxshop.pageobject.HouOrderManagerPage" value=""  desc="后台订单管理页面">
+		<locator type="xpath" timeout="3" value="//*[text()='名称：shamotest1']/ancestor::td[1]/following-sibling::td[7]/button[contains(text(),'发货')]" desc="某个用户下的第一个订单的发货">sendGoods</locator>
+		<locator type="cssselector" timeout="3" value=".am-form.form-validation-delivery.delivery-form li" desc="顺丰快递">shunfeng</locator>
+		<locator type="name" timeout="3" value="express_number" desc="快递号">express_number</locator>
+		<locator type="xpath" timeout="3" value="(//*[text()='确认'])[2]" desc="确认">confirm</locator>	
+	</page>
+	
+</map>

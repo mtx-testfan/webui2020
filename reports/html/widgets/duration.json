@@ -1,0 +1,21 @@
+[ {
+  "uid" : "f965b2bc27fc931a",
+  "name" : "test_add_cart",
+  "time" : {
+    "start" : 1610342461556,
+    "stop" : 1610342473288,
+    "duration" : 11732
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6df8034dd4541b78",
+  "name" : "test_delete_cart",
+  "time" : {
+    "start" : 1610342473291,
+    "stop" : 1610342484689,
+    "duration" : 11398
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
