@@ -16,6 +16,7 @@ class Login(ActionsManager):
         self.pageLogin.page_input_password(password)
         # 点击登录
         self.pageLogin.page_click_login_button()
+        time.sleep(3)
     # 正确登录的业务(为了方便其他功能使用)
     def login_success(self):
         # 点击登录链接
@@ -26,7 +27,7 @@ class Login(ActionsManager):
         self.pageLogin.page_input_password('yaoyao')
         # 点击登录
         self.pageLogin.page_click_login_button()
-        time.sleep(2)
+        time.sleep(3)
 
 
 if __name__ == '__main__':
